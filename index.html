@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cliente Alura Med</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/assets/style/reset.css">
+    <link rel="stylesheet" href="./src/assets/style/style.css">
+    <link rel="stylesheet" href="./src/assets/style/cliente.css">
+    <link rel="stylesheet" href="./src/assets/style/historico.css">
+    <link rel="stylesheet" href="./src/assets/style/anotacoes.css">
+    <link rel="stylesheet" href="./src/assets/style/endereco.css">
+    <link rel="stylesheet" href="./src/assets/style/consulta.css">
+</head>
+
+<body>
+
+    <header>
+        <img src="./src/assets/img/icone-voltar.png" alt="voltar">
+        <h3>Detalhe do paciente</h3>
+    </header>
+
+    <main>
+
+        <section class="cliente">
+            <img class="cliente__perfil" src="./src/assets/img/perfil.svg" alt="foto do cliente">
+            <h1 class="cliente__nome">Ana Clara Sampaio</h1>
+            <h4 class="cliente__descricao">Cliente desde 2018</h2>
+        </section>
+
+        <section class="historico">
+            <div class="historico__card">
+                <h3>Tempo médio de cada consulta</h3>
+                <img src="./src/assets/img/tempo-consultas.png"
+                    alt="grafico que exibe o tempo medio das consultas feitas pela paciente">
+            </div>
+            <div class="historico__card">
+                <h3>Número de consultas</h3>
+                <img src="./src/assets/img/quantidade-consultas.png"
+                    alt="grafico que exibe a quantidade de consultas feitas pela paciente">
+            </div>
+        </section>
+
+        <section class="anotacoes">
+            <h2>Anotações sobre a paciente</h2>
+            <p>Voluptatum odio autem numquam dolores? Sit? Integer ipsum explicabo soluta hymenaeos dolores. Distinctio
+                d...</p>
+            <a href="#">Ver mais</a>
+        </section>
+
+        <section class="endereco">
+            <h2>Endereço</h2>
+            <img src="./src/assets/img/mapa.png" alt="mapa">
+            <p>Av. Rio Branco, 333, 201 - Rio de Janeiro, RJ</p>
+        </section>
+
+        <section class="consulta">
+            <h2>Próximas consultas</h2>
+            <ul class="consulta__cards">
+                <li class="c-card">
+                    <div class="c-card__cabecalho">
+                        <img class="c-card__icone-perfil" src="./src/assets/img/perfil-consulta.png" alt="foto de perfil">
+                        <h3 class="c-card__titulo">Ana Clara Sampaio</h3>
+                        <img class="c-card__icone-chat" src="./src/assets/img/icone-chat.png" alt="icone chat">
+                        <img class="c-card__icone-camera" src="./src/assets/img/icone-camera.png" alt="icone camera">
+                        <h4 class="c-card__subtitulo">Consulta remota</h4>
+                    </div>
+                    <div class="c-card__conteudo">
+                        <p class="c-card__horario">14:00 - 15:00 (1 hora)</p>
+                        <button type="button" class="c-card__botao c-card__botao--primario">Ligar por vídeo</button><button type="button" class="c-card__botao">Ligar por áudio</button>
+                    </div>
+                </li>
+                <li class="c-card">
+                    <div class="c-card__cabecalho">
+                        <img class="c-card__icone-perfil" src="./src/assets/img/perfil-consulta.png" alt="foto de perfil">
+                        <h3 class="c-card__titulo">Ana Clara Sampaio</h3>
+                        <img class="c-card__icone-chat" src="./src/assets/img/icone-chat.png" alt="icone chat">
+                        <img class="c-card__icone-camera" src="./src/assets/img/icone-camera.png" alt="icone camera">
+                        <h4 class="c-card__subtitulo">Consulta remota</h4>
+                    </div>
+                    <div class="c-card__conteudo">
+                        <p class="c-card__horario">14:00 - 15:00 (1 hora)</p>
+                        <button type="button" class="c-card__botao c-card__botao--primario">Ligar por vídeo</button>
+                        <button type="button" class="c-card__botao">Ligar por áudio</button>
+                    </div>
+                </li>
+                <li class="c-card">
+                    <div class="c-card__cabecalho">
+                        <img class="c-card__icone-perfil" src="./src/assets/img/perfil-consulta.png" alt="foto de perfil">
+                        <h3 class="c-card__titulo">Ana Clara Sampaio</h3>
+                        <img class="c-card__icone-chat" src="./src/assets/img/icone-chat.png" alt="icone chat">
+                        <img class="c-card__icone-camera" src="./src/assets/img/icone-camera.png" alt="icone camera">
+                        <h4 class="c-card__subtitulo">Consulta remota</h4>
+                    </div>
+                    <div class="c-card__conteudo">
+                        <p class="c-card__horario">14:00 - 15:00 (1 hora)</p>
+                        <button type="button" class="c-card__botao c-card__botao--primario">Ligar por vídeo</button><button type="button" class="c-card__botao">Ligar por áudio</button>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </main>
+</body>
+
+</html>

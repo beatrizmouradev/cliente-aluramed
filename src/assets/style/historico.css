@@ -1,0 +1,14 @@
+.historico {
+    display: grid;
+    column-gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.historico__card {
+    background-color: #ffffff;
+    border-radius: .5rem;
+    padding: 1rem 1rem 1.3rem .5rem;
+    display: grid;
+    row-gap: 1rem;
+    justify-items: center;
+}
